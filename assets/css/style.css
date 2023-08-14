@@ -188,8 +188,7 @@ footer {
         margin-bottom: 0 !important;
     }
     .parallax-section {
-            background-size: cover !important;
-            height: 500px !important;
+            background-attachment:scroll !important;
     }
 
 }
