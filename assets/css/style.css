@@ -4,16 +4,10 @@ body {
 }
 
 .logo-img {
-    filter: hue-rotate(0deg);
-    /* Initial hue rotation value */
-    transition: filter 0.3s ease-in-out;
-    max-width: 175px;
+    max-width: 200px;
+    margin: 0;
 }
 
-.logo-img:hover {
-    filter: hue-rotate(90deg);
-    /* Adjust the hue value to change the color */
-}
 
 .navbar {
     background-color: rgba(0, 0, 0, 0);
@@ -106,11 +100,36 @@ body {
     background-color: #fffa !important;
 }
 
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 /* main body end */
 /* contact form */
 .bg-grey-translucent {
     background-color: rgba(128, 128, 128, 0.5);
     font-family: "lato", sans-serif;
+    border-radius: 10px;
 
 }
 
