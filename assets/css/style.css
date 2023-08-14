@@ -133,6 +133,23 @@ body {
 
 }
 
+@media (max-width: 767px) {
+    .logo-img {
+        max-width: 80px;
+    }
+    .parallax-section h2 {
+        font-size: 20px;
+    }
+    .parallax-section p {
+        font-size: 18px;
+    }
+    #contactForm button {
+        margin-bottom: 0 !important;
+    }
+}
+    
+
+
 /* contact end */
 /* footer */
 
