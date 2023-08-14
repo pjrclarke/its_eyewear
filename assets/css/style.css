@@ -134,28 +134,18 @@ body {
 
 }
 
-@media (max-width: 767px) {
-    .logo-img {
-        max-width: 100px;
+.contact-background {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    /* Start the image at the top of the section */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
-    .parallax-section h2 {
-        font-size: 20px;
-    }
-    .parallax-section p {
-        font-size: 18px;
-    }
-    #contactForm button {
-        margin-bottom: 0 !important;
-    }
-    .parallax-section {
-            background-size: cover !important;
-            height: 500px !important;
-    }
-
-}
-
-    
-
 
 /* contact end */
 /* footer */
@@ -183,3 +173,23 @@ footer {
 }
 
 /* footer end */
+/* media queries */
+@media (max-width: 767px) {
+    .logo-img {
+        max-width: 100px;
+    }
+    .parallax-section h2 {
+        font-size: 20px;
+    }
+    .parallax-section p {
+        font-size: 18px;
+    }
+    #contactForm button {
+        margin-bottom: 0 !important;
+    }
+    .parallax-section {
+            background-size: cover !important;
+            height: 500px !important;
+    }
+
+}
