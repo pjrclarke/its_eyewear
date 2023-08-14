@@ -146,6 +146,9 @@ body {
     #contactForm button {
         margin-bottom: 0 !important;
     }
+    .parallax-section {
+       background-size: cover;
+    }
 }
     
 
