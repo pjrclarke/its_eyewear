@@ -1,0 +1,142 @@
+body {
+    font-family: "lato", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+    filter: hue-rotate(0deg);
+    /* Initial hue rotation value */
+    transition: filter 0.3s ease-in-out;
+    max-width: 175px;
+}
+
+.logo-img:hover {
+    filter: hue-rotate(90deg);
+    /* Adjust the hue value to change the color */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    /* Completely translucent background */
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* To ensure it appears above other content */
+}
+
+.navbar-nav {
+    margin-right: auto;
+    color: #fff;
+    /* Align the navigation items to the right */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+    color: #fffa;
+}
+
+/* main body */
+
+.parallax-section h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: "lato", sans-serif;
+    margin: 10px;
+}
+
+.parallax-section p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "lato", sans-serif;
+    margin: 10px;
+}
+
+.parallax-section {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    /* Start the image at the top of the section */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-section .text-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 50%;
+    margin: auto;
+}
+
+.parallax-section .text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.parallax-section:nth-child(even) {
+    text-align: left;
+}
+
+.parallax-section:nth-child(odd) {
+    text-align: right;
+}
+
+.parallax-button {
+    transition: background-color 0.3s ease-in-out !important;
+    padding: 10px 30px !important;
+    /* Adjust the padding as needed */
+    font-size: 40px !important;
+}
+
+.parallax-button:hover {
+    background-color: #fffa !important;
+}
+
+/* main body end */
+/* contact form */
+.bg-grey-translucent {
+    background-color: rgba(128, 128, 128, 0.5);
+    font-family: "lato", sans-serif;
+
+}
+
+/* contact end */
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.instagram-link {
+    font-size: 36px;
+    color: #E1306C;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.instagram-link:hover {
+    color: #8a3ab9;
+}
+
+/* footer end */
