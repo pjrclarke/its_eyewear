@@ -149,12 +149,14 @@ body {
 
 /* contact end */
 /* footer */
-
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     text-align: center;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    font-size: smaller;
 }
 
 .social-icons {
@@ -163,7 +165,7 @@ footer {
 
 .instagram-link {
     font-size: 36px;
-    color: #E1306C;
+    color: #e1306c;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
@@ -172,6 +174,15 @@ footer {
     color: #8a3ab9;
 }
 
+.pjrclarke {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+.pjrclarke:hover {
+    text-decoration: none;
+    color: orange;
+}
 /* footer end */
 /* media queries */
 @media (max-width: 767px) {
