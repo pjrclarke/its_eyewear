@@ -48,13 +48,15 @@ body {
     margin: 10px;
 }
 
-.parallax-section p {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-family: "lato", sans-serif;
-    margin: 10px;
+.main-text p {
+    font-size:18px;
 }
+.parallax-section p {
+    font-size: 12px;
+    font-family: "lato", sans-serif;
+    
+}
+
 
 .parallax-section {
     height: 100vh;
@@ -153,10 +155,12 @@ footer {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     text-align: center;
-    padding: 20px;
-    position: absolute;
     bottom: 0;
     font-size: smaller;
+    position: absolute;
+}
+footer p {
+    margin: 0;
 }
 
 .social-icons {
@@ -164,10 +168,10 @@ footer {
 }
 
 .instagram-link {
-    font-size: 36px;
     color: #e1306c;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    margin: 0;
 }
 
 .instagram-link:hover {
@@ -192,9 +196,7 @@ footer {
     .parallax-section h2 {
         font-size: 20px;
     }
-    .parallax-section p {
-        font-size: 18px;
-    }
+   
     #contactForm button {
         margin-bottom: 0 !important;
     }
